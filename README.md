@@ -18,6 +18,11 @@ To run truffle tests:
 `truffle test ./test/flightSurety.js`
 `truffle test ./test/oracles.js`
 
+## Truffle test outputs
+![FlightSurety](images/fsTest.png "flight surety tests")
+<br>
+![Oracles](images/oracleTest.png "Oracles tests")
+
 To use the dapp:
 
 `truffle migrate`
