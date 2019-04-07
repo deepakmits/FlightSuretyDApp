@@ -35,6 +35,14 @@ To view dapp:
 ## Dapp View
 ![FSView](images/FSDapp.png "Flight Surety")
 
+## Accounts Arrangement used through ganache
+1) Configure 40 pre assigned accounts.
+2) Account index 0 -> owner
+3) Account index 1 -> firstAirline
+4) Account index 2-4 -> Airlines
+5) Account index 5-9 -> Passengers
+6) Account index 21-39 -> Oracles
+
 ## Develop Server
 
 `npm run server`
