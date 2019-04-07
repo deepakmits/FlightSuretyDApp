@@ -32,6 +32,9 @@ To view dapp:
 
 `http://localhost:8000`
 
+## Dapp View
+![FSView](images/FSDapp.png "Flight Surety")
+
 ## Develop Server
 
 `npm run server`
