@@ -8,7 +8,7 @@ var Config = async function(accounts) {
     // These test addresses are useful when you need to add
     // multiple users in test scripts
     let testAddresses = [
-        "0xfc725fcebcfd19bbd34257dfbceff25c1830c25f",
+        "0xfc725fcebcfd19bbd34257dfbceff25c1830c25f",    //owner
         "0xfbfd4fbf3b2e8082ee09ab9b8f2cb3b18541d255",    //firts airline
         "0x0850dd493df96ab250f100cdb2ff0d357df1e309",    //second airline
         "0x6cf531a7347423959321ebb808498e999768fd12",    //third airline
