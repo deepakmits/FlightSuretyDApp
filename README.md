@@ -2,8 +2,10 @@
 
 FlightSurety is a sample application project for Udacity's Blockchain course.
 
+This repository contains Smart Contract code in Solidity (using Truffle), tests (also using Truffle), dApp scaffolding (using HTML, CSS and JS) and server app scaffolding.
+
 ## Software tools requirements - 
-cd into FlightSurety and run - npm install truffle-hdwallet-provider
+0) cd into FlightSurety and run - npm install truffle-hdwallet-provider
 1) Ganache - v1.2.2 - Mnemonic - wait worry size million cable awesome auto erode frog either rail notice
 2) Truffle v5.0.11 (core: 5.0.11) - Mnemonic - shock amateur sausage obey segment decade render chair arch runway obscure school
 3) Solidity - ^0.4.24 (solc-js)
@@ -11,21 +13,8 @@ cd into FlightSurety and run - npm install truffle-hdwallet-provider
 5) Web3.js v1.0.0-beta.37
 
 
-## Install
-
-This repository contains Smart Contract code in Solidity (using Truffle), tests (also using Truffle), dApp scaffolding (using HTML, CSS and JS) and server app scaffolding.
-
-To install, download or clone the repo, then:
-
-`npm install`
-`truffle compile`
-
 ## Develop Client
 
-To run truffle tests:
-
-`truffle test ./test/flightSurety.js`
-`truffle test ./test/oracles.js`
 
 ## To run truffle tests for testing Airline section of the rubrics - 
 1) Truffle develop
@@ -47,27 +36,21 @@ To run truffle tests:
 5) Account index 5-9 -> Passengers
 6) Account index 21-39 -> Oracles
 
-## To run dapp to test passenger and oracle secions from rubric
-Please change 2_deploy_contracts.js to add owner and firstAirline as first and second account from ganache test accounts.
-
-To use the dapp:
-
-`truffle migrate`
-`npm run dapp`
+## To use the dapp:
+1) Start ganache
+2) Please change 2_deploy_contracts.js to add owner and firstAirline as first and second account from ganache test accounts.
+3) truffle migrate
+4) npm run dapp
 
 To view dapp:
-
 `http://localhost:8000`
 
 ## Dapp View
 ![FSView](images/FSDapp.png "Flight Surety")
 
 
-
 ## Develop Server
-
-`npm run server`
-`truffle test ./test/oracles.js`
+1) `npm run server`
 
 ## Deploy
 
