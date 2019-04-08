@@ -3,9 +3,10 @@
 FlightSurety is a sample application project for Udacity's Blockchain course.
 
 ## Software tools requirements - 
+cd into FlightSurety and run - npm install truffle-hdwallet-provider
 1) Ganache - v1.2.2 - Mnemonic - wait worry size million cable awesome auto erode frog either rail notice
 2) Truffle v5.0.11 (core: 5.0.11) - Mnemonic - shock amateur sausage obey segment decade render chair arch runway obscure school
-3) Solidity v0.5.0 (solc-js)
+3) Solidity - ^0.4.24 (solc-js)
 4) Node v8.11.3
 5) Web3.js v1.0.0-beta.37
 
