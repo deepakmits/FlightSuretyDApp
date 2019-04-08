@@ -27,12 +27,27 @@ To run truffle tests:
 `truffle test ./test/oracles.js`
 
 ## To run truffle tests for testing Airline section of the rubrics - 
-
+1) Truffle develop
+2) compile
+3) Please change 2_deploy_contracts.js to add owner and firstAirline as first and second account from truffle test accounts.
+4) migrate --reset
+5) test
 
 ## Truffle test outputs
 ![FlightSurety](images/fsTest.png "flight surety tests")
 <br>
 ![Oracles](images/oracleTest.png "Oracles tests")
+
+## Accounts Arrangement used through ganache
+1) Configure 40 pre assigned accounts.
+2) Account index 0 -> owner
+3) Account index 1 -> firstAirline
+4) Account index 2-4 -> Airlines
+5) Account index 5-9 -> Passengers
+6) Account index 21-39 -> Oracles
+
+## To run dapp to test passenger and oracle secions from rubric
+Please change 2_deploy_contracts.js to add owner and firstAirline as first and second account from ganache test accounts.
 
 To use the dapp:
 
@@ -46,13 +61,7 @@ To view dapp:
 ## Dapp View
 ![FSView](images/FSDapp.png "Flight Surety")
 
-## Accounts Arrangement used through ganache
-1) Configure 40 pre assigned accounts.
-2) Account index 0 -> owner
-3) Account index 1 -> firstAirline
-4) Account index 2-4 -> Airlines
-5) Account index 5-9 -> Passengers
-6) Account index 21-39 -> Oracles
+
 
 ## Develop Server
 
