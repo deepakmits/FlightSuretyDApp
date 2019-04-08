@@ -56,8 +56,8 @@ contract('Oracles', async (accounts) => {
                     // Submit a response...it will only be accepted if there is an Index match
                     await config.flightSuretyApp.submitOracleResponse(oracleIndexes[idx], config.firstAirline, flight, timestamp, STATUS_CODE_LATE_AIRLINE, {from: accounts[a]});
                     console.log('\Success', accounts[a], idx, oracleIndexes[idx].toNumber(), flight, timestamp);
-                    balance = await config.flightSuretyApp.getInsureeBalance({from: config.testAddresses[6]});
-                    console.log('++++',balance);
+                    //balance = await config.flightSuretyApp.getInsureeBalance({from: config.testAddresses[6]});
+                    //console.log('++++',balance);
                 } catch (e) {
                     // Enable this when debugging
                     console.log('\nError', accounts[a],idx, oracleIndexes[idx].toNumber(), flight, timestamp);
